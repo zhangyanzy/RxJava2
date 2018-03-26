@@ -9,18 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".UseRxJavaThreadActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UseRxJavaThreadActivity"></activity>
+        <activity android:name=".RxJavaMapActivity" />
+        <activity android:name=".ThreadRxJavaActivity">
 
         </activity>
-        <activity android:name=".RxJavaMapActivity"></activity>
-        <activity android:name=".ThreadRxJavaActivity">
+
+        <activity android:name=".RxJavaZipActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
