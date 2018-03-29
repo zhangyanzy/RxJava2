@@ -10,18 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".UseRxJavaThreadActivity"></activity>
+        <activity android:name=".UseRxJavaThreadActivity" />
         <activity android:name=".RxJavaMapActivity" />
-        <activity android:name=".ThreadRxJavaActivity">
+        <activity android:name=".ThreadRxJavaActivity" />
+        <activity android:name=".RxJavaZipActivity"></activity>
+        <activity android:name="com.zhangyan.fragment.FragmentActivity">
 
         </activity>
-
-        <activity android:name=".RxJavaZipActivity">
+        <activity android:name="com.zhangyan.GirlMVPActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
